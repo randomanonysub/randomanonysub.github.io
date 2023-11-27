@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+		 
+	 
+	<div class="video-container">
+        <video id="videoPlayer2" width="640" height="480" muted autoplay webkit-playsinline playsinline loop>
+            <source id="videoSource2" src="dozer/Original_Render.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="videoText2" class="video-text">
+            <!-- Text will be updated here -->
+        </div>
+    </div>
+    <div class="button-container">
+        <button onclick="playVideo('videoPlayer2','dozer/Original_Render.mp4')">Original NeRF</button>
+        <button onclick="playVideo('videoPlayer2','dozer/bright_blue.mp4')">Brighter Color & Blue Tyres</button>
+        <button onclick="playVideo('videoPlayer2','dozer/miro.mp4')">Miro Painting Style</button>
+        <button onclick="playVideo('videoPlayer2','dozer/blue.mp4')">Blue Tyres</button>
+        <button onclick="playVideo('videoPlayer2','dozer/red_yellow.mp4')">Red Dozer & Yellow Cones</button>
+        <button onclick="playVideo('videoPlayer2','dozer/black_Red.mp4')">Black Tyres & Red Cones</button>
+        <button onclick="playVideo('videoPlayer2','dozer/purple.mp4')">Purple Cones</button>
+        <button onclick="playVideo('videoPlayer2','dozer/red.mp4')">Red Bulldozer</button>
+
+        <!-- Additional buttons here -->
+    </div>
+
+	<hr>
+
+    <div class="video-container">
+        <video id="videoPlayer" width="640" height="480" muted autoplay webkit-playsinline playsinline loop>
+            <source id="videoSource" src="teddy/Original_Teddy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="videoText" class="video-text">
+            <!-- Text will be updated here -->
+        </div>
+    </div>
+    <div class="button-container">
+            <button onclick="playVideo('videoPlayer','teddy/Original_Teddy.mp4')">Original Teddy</button>
+            <button onclick="playVideo('videoPlayer','teddy/Leopard_skin.mp4')">Leopard Skin</button>
+            <button onclick="playVideo('videoPlayer','teddy/Polar_bear.mp4')">Polar Bear</button>
+            <button onclick="playVideo('videoPlayer','teddy/Snake_skin.mp4')">Snake Skin</button>
+            <button onclick="playVideo('videoPlayer','teddy/Black_n_white_cow.mp4')">Black & White Cow</button>
+            <button onclick="playVideo('videoPlayer','teddy/Giraffe_skin.mp4')">Giraffe Skin</button>
+            <button onclick="playVideo('videoPlayer','teddy/Tiger_stripes.mp4')">Tiger Stripes</button>
+        <!-- Additional buttons here -->
+    </div>
+
+
+
+	<hr>
+	
+	
+	
+	    <div class="video-container">
+        <video id="videoPlayer3" width="640" height="480" muted autoplay webkit-playsinline playsinline loop>
+            <source id="videoSource3" src="face/original_face.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="videoText3" class="video-text">
+            <!-- Text will be updated here -->
+        </div>
+    </div>
+    <div class="button-container">
+            <button onclick="playVideo('videoPlayer3','face/original_face.mp4')">Original NeRF</button>
+            <button onclick="playVideo('videoPlayer3','face/einstein_superman_jacket.mp4')">Einstein & Superman</button>
+            <button onclick="playVideo('videoPlayer3','face/hair_black.mp4')">Hair black</button>
+            <button onclick="playVideo('videoPlayer3','face/joker_batman.mp4')">Joker & Batman</button>
+            <button onclick="playVideo('videoPlayer3','face/moustache_yellow_jacket.mp4')">Moustache & Yellow</button>
+            <button onclick="playVideo('videoPlayer3','face/hair_purple.mp4')">Purple hair</button>
+            <button onclick="playVideo('videoPlayer3','face/red_blue.mp4')">Red & Blue</button>
+			<button onclick="playVideo('videoPlayer3','face/black_jacket.mp4')">Black jacket</button>
+        <!-- Additional buttons here -->
+    </div>
+
+
+
+	<hr>
+	
+	    <div class="video-container">
+        <video id="videoPlayer4" width="640" height="480" muted autoplay webkit-playsinline playsinline loop>
+            <source id="videoSource4" src="room/org.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="videoText4" class="video-text">
+            <!-- Text will be updated here -->
+        </div>
+    </div>
+    <div class="button-container">
+            <button onclick="playVideo('videoPlayer4','room/org.mp4')">Original NeRF</button>
+            <button onclick="playVideo('videoPlayer4','room/blue.mp4')">Blue</button>
+            <button onclick="playVideo('videoPlayer4','room/green.mp4')">Green</button>
+            <button onclick="playVideo('videoPlayer4','room/edward.mp4')">Edward Munch</button>
+            <button onclick="playVideo('videoPlayer4','room/van_gogh.mp4')">Van Gogh</button>
+
+        <!-- Additional buttons here -->
+    </div>
+
+
+
+	<hr>
+
+    <script src="script.js"></script>
+</body>
+</html>
