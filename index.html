@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+		 
+	 
+	<div class="video-container">
+        <video id="videoPlayer2" width="640" height="480" muted autoplay webkit-playsinline playsinline loop>
+            <source id="videoSource2" src="dozer/Original_Render.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="videoText2" class="video-text">
+            <!-- Text will be updated here -->
+        </div>
+    </div>
+    <div class="button-container">
+        <button onclick="playVideo('videoPlayer2','dozer/Original_Render.mp4')">Original Render</button>
+        <button onclick="playVideo('videoPlayer2','dozer/Give bulldozer brighter color and make tyres blue.mp4')">Brighter Color & Blue Tyres</button>
+        <button onclick="playVideo('videoPlayer2','dozer/Give bulldozer Miro painting style.mp4')">Miro Painting Style</button>
+        <button onclick="playVideo('videoPlayer2','dozer/Give the tyres blye color.mp4')">Blue Tyres</button>
+        <button onclick="playVideo('videoPlayer2','dozer/Make bulldozer red and give cones yellow color.mp4')">Red Dozer & Yellow Cones</button>
+        <button onclick="playVideo('videoPlayer2','dozer/Make tyres deep black and turn comes into red.mp4')">Black Tyres & Red Cones</button>
+        <button onclick="playVideo('videoPlayer2','dozer/Turn cones into purple.mp4')">Purple Cones</button>
+        <button onclick="playVideo('videoPlayer2','dozer/Turn the bulldozer into red.mp4')">Red Bulldozer</button>
+
+        <!-- Additional buttons here -->
+    </div>
+
+	<hr>
+
+    <div class="video-container">
+        <video id="videoPlayer" width="640" height="480" muted autoplay webkit-playsinline playsinline loop>
+            <source id="videoSource" src="teddy/Original_Teddy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="videoText" class="video-text">
+            <!-- Text will be updated here -->
+        </div>
+    </div>
+    <div class="button-container">
+            <button onclick="playVideo('videoPlayer','teddy/Original_Teddy.mp4')">Original Teddy</button>
+            <button onclick="playVideo('videoPlayer','teddy/Leopard_skin.mp4')">Leopard Skin</button>
+            <button onclick="playVideo('videoPlayer','teddy/Polar_bear.mp4')">Polar Bear</button>
+            <button onclick="playVideo('videoPlayer','teddy/Snake_skin.mp4')">Snake Skin</button>
+            <button onclick="playVideo('videoPlayer','teddy/Black_n_white_cow.mp4')">Black & White Cow</button>
+            <button onclick="playVideo('videoPlayer','teddy/Giraffe_skin.mp4')">Giraffe Skin</button>
+            <button onclick="playVideo('videoPlayer','teddy/Tiger_stripes.mp4')">Tiger Stripes</button>
+        <!-- Additional buttons here -->
+    </div>
+
+
+
+	<hr>
+
+    <script src="script.js"></script>
+</body>
+</html>

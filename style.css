@@ -1,0 +1,23 @@
+.video-container {
+    position: relative;
+    text-align: center;
+}
+
+.video-text {
+    text-align: center; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 40rem; /* Width in rem units */
+    margin: 0 auto; /* Center the element horizontally */
+    font-family: 'Calibri', sans-serif; /* Use Calibri font */
+    font-style: italic; /* Set text to italic */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 0.625rem; /* Margin in rem units */
+}
+
+.button-container button {
+    margin: 0.156rem; /* Margin in rem units */
+}
